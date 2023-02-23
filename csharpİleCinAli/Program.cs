@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Çemberin yarıçapını kullanıcıdan alın
-        Console.Write("Yarıçapı girin: ");
-        int r = int.Parse(Console.ReadLine());
+        
+      
+        int r = 8;
 
         // Çemberin merkezi, x = r ve y = r koordinatında olsun
         for (int y = 0; y <= 2 * r; y++)
